@@ -1,4 +1,4 @@
-To deplay the app follow the instructions:
+To deploy the app follow the instructions bellow:
 
 #1 Download and isntall Python.
 #2 On settings.py in the IGR_django_coding_test folder insert a valid db connection infomation.
