@@ -1,6 +1,6 @@
 To deplay the app follow the instructions:
 
-#1 Downalod and isntall Python.
+#1 Download and isntall Python.
 #2 On settings.py in the IGR_django_coding_test folder insert a valid db connection infomation.
 #3 On settings.py in the IGR_django_coding_test folder add the public domain to ALLOWED_HOSTS.
 #4 Adjust you domain fowarding to the server machine or cloud loadbalancer.
