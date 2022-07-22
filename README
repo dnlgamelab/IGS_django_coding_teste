@@ -1,0 +1,13 @@
+To deplay the app follow the instructions:
+
+#1 Downalod and isntall Python.
+#2 On settings.py in the IGR_django_coding_test folder insert a valid db connection infomation.
+#3 On settings.py in the IGR_django_coding_test folder add the public domain to ALLOWED_HOSTS.
+#4 Adjust you domain fowarding to the server machine or cloud loadbalancer.
+#5 Build a virtual environment using a method of your choice.
+#6 Install the libraries on requirements.txt (view your enviromewnt docs on hoiw to install them).
+#7 Install a wsgi server that runs onm you operating system. 
+#8 Setup the firewalll permissions to accept http requests (port 80).
+#9 With your virtual environent activated run python manage.py migrate.
+#10 With your virtual environent activated run python manage.py createsuperuser and follow the prompts.
+#11 Run your wsgi server exposing the 80 port or through an weberver proxy like Nginx.
