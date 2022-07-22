@@ -4,4 +4,4 @@ from .models import Employee
 class EmployeeSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Employee
-        fields =['name' 'email', 'department']
+        fields =['name', 'email', 'department']
