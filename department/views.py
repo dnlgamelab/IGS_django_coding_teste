@@ -7,3 +7,4 @@ from .serializers import DepartmentSerializer
 class DeparmentViewSet(viewsets.ModelViewSet):
     queryset = Department.objects.all()
     serializer_class = DepartmentSerializer
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
