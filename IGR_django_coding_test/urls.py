@@ -18,6 +18,7 @@ from django.urls import path, include
 from rest_framework import routers
 from department import views as departmentViews
 from employee import views as employeeViews
+from website import views as websiteViews
 
 router = routers.DefaultRouter()
 router.register(r'/department', departmentViews.DeparmentViewSet)
@@ -25,5 +26,6 @@ router.register(r'/employee', employeeViews.EmployeeViewSet)
 
 urlpatterns = [
     path('api', include(router.urls)),
-    path('admin/', admin.site.urls)
+    path('admin/', admin.site.urls),
+    path('', websiteViews.index)
 ]
